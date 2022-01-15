@@ -1,0 +1,45 @@
+#speaker-container {
+    width: 50%;
+}
+
+#form-section {
+    background-image: url(../images/people.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+#form-container {
+    width: 25%;
+    min-width: 350px;
+}
+
+#speaker-picture{
+    width: 150px;
+    height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    #speaker-container {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #speaker-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #speaker-picture {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #form-container {
+        width: calc(100%);
+        min-width: unset;
+    }
+}
